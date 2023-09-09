@@ -155,7 +155,7 @@ MonoBehaviour:
   MapTile: {fileID: 4236122066186753931, guid: 26e409fb5316e7f4d9d0db5841ab6ca9, type: 3}
   mapWidth: 9
   mapHeight: 9
-  pathColor: {r: 0, g: 0, b: 0, a: 1}
+  pathColor: {r: 0.7075472, g: 0.5514993, b: 0.47058564, a: 1}
 --- !u!4 &120259930
 Transform:
   m_ObjectHideFlags: 0
