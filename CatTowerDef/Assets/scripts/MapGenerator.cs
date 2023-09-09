@@ -20,7 +20,7 @@ public class MapGenerator : MonoBehaviour
     private int currentIndex;
     private int nextIndex;
 
-    public Color pathColor;
+    public Sprite PathTile;
 
     private void Start()
     {
@@ -144,7 +144,7 @@ public class MapGenerator : MonoBehaviour
 
         foreach (GameObject obj in pathTiles)
         {
-            obj.GetComponent<SpriteRenderer>().color = pathColor;
+            obj.GetComponent<SpriteRenderer>().sprite = PathTile;
         }
     }
 }
